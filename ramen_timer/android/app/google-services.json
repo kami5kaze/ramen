@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "899951608664",
+    "project_id": "ramen-timer-26ef9",
+    "storage_bucket": "ramen-timer-26ef9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899951608664:android:e8042efa67bbbc3daf5b2d",
+        "android_client_info": {
+          "package_name": "com.kami.ramenTimer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBOeTJQuhectLi37nIrJATdXsmbZIeZrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
