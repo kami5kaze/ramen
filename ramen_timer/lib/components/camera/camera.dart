@@ -5,7 +5,7 @@ import "package:camera/camera.dart";
 import "package:flutter_hooks/flutter_hooks.dart";
 import "package:ramen_timer/components/result.dart";
 import "package:ramen_timer/home/home.dart";
-import 'package:google_mlkit_text_recognition/google_mlkit_text_recognition.dart';
+// import 'package:google_mlkit_text_recognition/google_mlkit_text_recognition.dart';
 
 class CameraApp extends HookWidget {
   const CameraApp(this.camera);
@@ -17,8 +17,8 @@ class CameraApp extends HookWidget {
     late CameraController? _controller =
         CameraController(camera, ResolutionPreset.medium);
     late Future<void> _initializeControllerFuture = _controller.initialize();
-    final textRecognizer =
-        TextRecognizer(script: TextRecognitionScript.japanese);
+    // final textRecognizer =
+    //     TextRecognizer(script: TextRecognitionScript.japanese);
 
     return Scaffold(
       appBar: AppBar(
@@ -43,14 +43,14 @@ class CameraApp extends HookWidget {
           try {
             final image = await _controller.takePicture();
             final file = File(image.path);
-            final inputImage = InputImage.fromFile(file);
-            final recognizedText =
-                await textRecognizer.processImage(inputImage);
+            // final inputImage = InputImage.fromFile(file);
+            //   final recognizedText =
+            //       await textRecognizer.processImage(inputImage);
 
-            await Navigator.of(context).push(MaterialPageRoute(
-              builder: (context) => ResultPage(recognizedText: recognizedText),
-              fullscreenDialog: true,
-            ));
+            //   await Navigator.of(context).push(MaterialPageRoute(
+            //     builder: (context) => ResultPage(recognizedText: recognizedText),
+            //     fullscreenDialog: true,
+            //   ));
           } catch (e) {
             ScaffoldMessenger.of(context).showSnackBar(
               const SnackBar(

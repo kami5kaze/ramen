@@ -46,6 +46,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '899951608664',
     projectId: 'ramen-timer-26ef9',
     authDomain: 'ramen-timer-26ef9.firebaseapp.com',
+    databaseURL: 'https://ramen-timer-26ef9-default-rtdb.firebaseio.com',
     storageBucket: 'ramen-timer-26ef9.firebasestorage.app',
     measurementId: 'G-6SH5PP2E8V',
   );
@@ -55,6 +56,7 @@ class DefaultFirebaseOptions {
     appId: '1:899951608664:android:e8042efa67bbbc3daf5b2d',
     messagingSenderId: '899951608664',
     projectId: 'ramen-timer-26ef9',
+    databaseURL: 'https://ramen-timer-26ef9-default-rtdb.firebaseio.com',
     storageBucket: 'ramen-timer-26ef9.firebasestorage.app',
   );
 
@@ -63,6 +65,7 @@ class DefaultFirebaseOptions {
     appId: '1:899951608664:ios:4599c8e2609f317daf5b2d',
     messagingSenderId: '899951608664',
     projectId: 'ramen-timer-26ef9',
+    databaseURL: 'https://ramen-timer-26ef9-default-rtdb.firebaseio.com',
     storageBucket: 'ramen-timer-26ef9.firebasestorage.app',
     iosBundleId: 'com.example.ramenTimer',
   );
@@ -72,6 +75,7 @@ class DefaultFirebaseOptions {
     appId: '1:899951608664:ios:4599c8e2609f317daf5b2d',
     messagingSenderId: '899951608664',
     projectId: 'ramen-timer-26ef9',
+    databaseURL: 'https://ramen-timer-26ef9-default-rtdb.firebaseio.com',
     storageBucket: 'ramen-timer-26ef9.firebasestorage.app',
     iosBundleId: 'com.example.ramenTimer',
   );
@@ -82,7 +86,9 @@ class DefaultFirebaseOptions {
     messagingSenderId: '899951608664',
     projectId: 'ramen-timer-26ef9',
     authDomain: 'ramen-timer-26ef9.firebaseapp.com',
+    databaseURL: 'https://ramen-timer-26ef9-default-rtdb.firebaseio.com',
     storageBucket: 'ramen-timer-26ef9.firebasestorage.app',
     measurementId: 'G-7Z5XSWSZTZ',
   );
+
 }
