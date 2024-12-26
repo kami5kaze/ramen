@@ -26,5 +26,7 @@
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:899951608664:ios:4599c8e2609f317daf5b2d</string>
+	<key>DATABASE_URL</key>
+	<string>https://ramen-timer-26ef9-default-rtdb.firebaseio.com</string>
 </dict>
 </plist>
